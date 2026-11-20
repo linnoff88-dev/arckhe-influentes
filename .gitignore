@@ -1,0 +1,5 @@
+*.codex.log
+*.png
+!capa/capa.png
+!guia/assets/hero.png
+__pycache__/

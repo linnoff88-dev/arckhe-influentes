@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>influentes — Influencers virtuales, más allá del hype</title>
+<meta content="12 personajes, tendencias y señales de declive: una guía con fuentes para crear identidad, narrativa y consistencia." name="description"/>
+<link href="https://inematds.github.io/influentes/guia/" hreflang="pt-BR" rel="alternate"/>
+<link href="https://inematds.github.io/influentes/guia/en/" hreflang="en" rel="alternate"/>
+<link href="https://inematds.github.io/influentes/guia/es/" hreflang="es" rel="alternate"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(226,162,59,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:760px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(226,162,59,.22),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:rgba(226,162,59,.14);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#6f6f7c} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .ex{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.ex{grid-template-columns:1fr}}
+  .ex figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+  .ex figure img{width:100%;display:block}
+  .ex figcaption{padding:12px 14px;font-size:.88rem;color:var(--mut);background:var(--card)}
+  .phase{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .phase:last-child{border:none}
+  .phase .tag{flex:0 0 92px;font-family:Sora;font-weight:800;color:var(--amb)}
+  .phase .d strong{display:block;margin-bottom:.2em}
+  .phase .d span{color:var(--mut);font-size:.92rem}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+
+/* Ajustes de lectura sobre la plantilla INEMA. */
+section[id]{scroll-margin-top:100px}.reading{max-width:900px}.reading p,.reading li{max-width:78ch}.reading h3{margin:2rem 0 .8rem;line-height:1.35}.reading h2{margin-bottom:1.2rem}.reading li{margin:.6rem 0}.reading a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.table-scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--line);border-radius:12px}table{border-collapse:collapse;width:100%;min-width:700px;font-size:.9rem}td,th{text-align:left;padding:14px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--bg2);color:var(--amb)}pre{white-space:pre-wrap;overflow-wrap:anywhere}nav .wrap{gap:14px}nav .links{gap:14px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}:focus-visible{outline:3px solid var(--sky);outline-offset:4px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="brand" href="#top"><span class="emoji">🎭</span> influentes</a>
+<span class="sep">|</span>
+<span class="clubpro">
+<a class="inema" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<span class="sep">-</span>
+<a class="pro" href="https://inema.pro" rel="noopener" target="_blank">PRO</a>
+</span>
+<div class="links">
+<a class="sec" href="#panorama">Panorama</a>
+<span class="lang"><a href="../">PT</a><a href="../en/">EN</a><a class="on" href="./">ES</a></span>
+<button aria-label="Cambiar tema" class="tgl" id="themeToggle" title="Cambiar tema">🌙</button>
+<a class="btn" href="https://github.com/inematds/influentes" rel="noopener" target="_blank">GitHub</a>
+</div>
+</div></nav>
+<header class="hero" id="top">
+<div class="glow"></div>
+<div class="wrap">
+<div>
+<span class="chip">Investigación · 12 referencias · Octubre 2026</span>
+<h1>Un rostro llama la atención.<br/>Una <span class="amb">identidad</span> hace que vuelvan.</h1>
+<p class="lead">Qué fue una moda pasajera, qué perdió fuerza y qué sigue siendo relevante entre los influencers virtuales.</p>
+<div class="cta">
+<a class="btn" href="#panorama">Explorar la investigación</a>
+<a class="btn ghost" href="https://github.com/inematds/influentes" rel="noopener" target="_blank">Ver en GitHub</a>
+</div>
+</div>
+<figure><img alt="Crea un personaje: identidad más allá de la apariencia" src="../assets/banner-es.jpg"/></figure>
+</div>
+</header>
+<section class="resumo" id="resumo"><div class="wrap">
+<span class="chip">En resumen</span>
+<p>influentes es una guía de investigación sobre influencers virtuales y personajes creados con IA. Está dirigida a quienes crean contenido y quieren desarrollar una identidad que el público reconozca y tenga motivos para seguir. Reúne doce referencias, compara señales de continuidad y pérdida de fuerza y ofrece una ficha práctica de personaje. Es gratuita: basta con leer, abrir las fuentes y hacer el ejercicio.</p>
+</div></section>
+<section id="pergunta"><div class="wrap reading"><h2>La pregunta que cambia el proyecto</h2><figure style="margin:0 0 28px"><img alt="Identidad, público, aspecto visual, narrativa, contenido y estrategia" loading="lazy" src="../assets/banner-grade-es.jpg" style="width:100%;border-radius:14px"/></figure><p>Sustituye «¿cómo debería verse mi personaje?» por <strong>«¿por qué alguien seguiría a este personaje?»</strong>. Una apariencia reconocible ayuda, pero la gente vuelve por el humor, la utilidad, las historias, la música, la identificación o una combinación de estos motivos.</p>
+<p><strong>Influencer virtual</strong> es el personaje que tiene presencia pública digital. Puede crearse con animación 3D, gráficos por computadora, composición de imágenes o IA generativa. <strong>Un personaje creado con IA no significa un personaje autónomo:</strong> hay personas eligiendo temas, imágenes, diálogos y colaboraciones. Miquela y Shudu son referencias históricas de gráficos por computadora; no deben presentarse como creaciones recientes de generadores de imágenes. <a href="https://www.loc.gov/item/lcwaN0028061/">Library of Congress</a> · <a href="https://www.thediigitals.com/photoparis">The Diigitals</a>.</p></div></section>
+<section id="panorama"><div class="wrap reading"><h2>Qué ha quedado superado, qué fue una moda pasajera y qué sigue fuerte</h2><p>Esta es una <strong>lectura editorial de las evidencias</strong>, no un ranking de popularidad. «Superado» se refiere a una estrategia insuficiente, no a la extinción de una tecnología ni a la falta de valor de un personaje.</p>
+<div aria-label="Tabla con desplazamiento horizontal" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Lectura</th>
+<th>Qué se incluye aquí</th>
+<th>Qué hacer con ello</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Superado como propuesta completa</td>
+<td>«Parece una persona real, así que crecerá»; repetir fotos bonitas; presentar seguidores como facturación</td>
+<td>Tratar el realismo como recurso de producción. Definir un motivo para seguir al personaje y medir respuestas reales</td>
+</tr>
+<tr>
+<td>Ola de novedad</td>
+<td>La sorpresa al descubrir que la modelo no existe; titulares sobre dinero fácil; imitaciones de un meme viral</td>
+<td>Estudiar el gancho, sin suponer que la novedad continúa ni que copiar garantiza resultados</td>
+</tr>
+<tr>
+<td>Continuidad comercial documentada</td>
+<td>Lu do Magalu; participación de imma en campañas y anuncio de una interfaz conversacional en 2026</td>
+<td>Observar la integración entre personaje, marca y servicio. Una campaña no demuestra crecimiento de seguidores</td>
+</tr>
+<tr>
+<td>Continuidad creativa, con señales mixtas</td>
+<td>Milla Sofia combina música y plataformas; Aitana sigue en el portafolio de la agencia; Shudu mantiene su posicionamiento editorial</td>
+<td>Separar una operación existente de la aceleración. No llamar «explosión» a la presencia</td>
+</tr>
+<tr>
+<td>Legado valioso, tracción por revisar</td>
+<td>Miquela, Naina, Rozy y Emily en la instantánea de Instagram proporcionada</td>
+<td>Aprender de la identidad y comprobar la actividad antes de usarla como ejemplo de crecimiento actual</td>
+</tr>
+</tbody>
+</table></div>
+<h3>¿Qué se puede calificar de «sigue arrasando»?</h3>
+<p><strong>Lu do Magalu es el caso con la evidencia comercial reciente más sólida de esta selección.</strong> Hay una campaña de Koleston en 2026 y un lanzamiento publicitario del WhatsApp de Lu, que conecta al personaje con la compra asistida. Esto respalda que «sigue siendo relevante comercialmente»; no es una auditoría independiente de beneficios ni de toda la audiencia. <a href="https://exame.com/marketing/apos-ficar-loira-lu-do-magalu-dobra-vendas-de-coloracao-e-ja-supera-metade-da-receita-de-2025/">Exame — campaña y resultados declarados</a> · <a href="https://lbbonline.com/news/Magalu-Scores-Football-AI-Shopping-Assistant-WhatsApp">LBB, 16/06/2026</a>.</p>
+<p><strong>imma muestra una expansión de usos.</strong> El 22/07/2026, Aww anunció su presencia como personaje conversacional del servicio HITO en la AI EXPO de agosto. Es evidencia de desarrollo de producto y comunicación empresarial; por sí sola, no demuestra viralidad ni crecimiento en Instagram. <a href="https://aww.tokyo/en/news/2026/07/1772/">Anuncio oficial de Aww</a>.</p>
+<p><strong>Milla Sofia mantiene la continuidad y presenta un trimestre mejor que el mes</strong>, según el estudio proporcionado: un saldo de cerca de +22 mil en Instagram en 90 días, pero una pérdida en el período de 30 días. Su propio sitio confirma la música y el modelaje como líneas del proyecto. Aquí no hay pruebas de que la música haya causado el crecimiento. <a href="https://creatordb.app/creatorstats/millasofiafin/">CreatorDB</a> · <a href="https://millasofia.eth.limo/index.html">Sitio de Milla Sofia</a>.</p>
+<p><strong>Marisa Maiô es un ejemplo de moda pasajera con aplicación comercial comprobada en 2025.</strong> Magalu documentó una campaña con el personaje en junio de aquel año. La fuente demuestra la colaboración histórica; esta investigación no encontró evidencia comparable que permita afirmar que sigue en el mismo apogeo en octubre de 2026. Esto tampoco demuestra que el proyecto haya terminado. <a href="https://ri.magazineluiza.com.br/Download.aspx?Arquivo=sW2j2qujldCsyoUBihZZ%2FQ%3D%3D">Comunicado de Magalu, 12/06/2025</a>.</p>
+<p><strong>Conclusión práctica:</strong> la oportunidad no ha desaparecido, pero «está hecho con IA» no basta como argumento. La utilidad, el humor, la narrativa, la cultura y la distribución merecen más atención que la promesa de una modelo virtual que gana dinero sola. La saturación y la pérdida del efecto novedad son hipótesis explicativas, no causas demostradas por las cifras siguientes.</p></div></section>
+<section id="dados"><div class="wrap reading"><h2>La instantánea de los siete perfiles originales</h2><p><strong>Instantánea proporcionada por el autor, con datos recogidos entre el 29/09 y el 12/10/2026</strong>, basada en CreatorDB, HypeAuditor y Likeometer. Valores aproximados, sujetos a la metodología de los agregadores. No es una consulta directa a las cuentas ni un panel en tiempo real. Las fechas de actualización de cada fuente pueden diferir.</p>
+<div aria-label="Tabla con desplazamiento horizontal" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Personaje</th>
+<th style="text-align: right;">Instagram aproximado</th>
+<th>30 días, según la fuente</th>
+<th>Frecuencia / actividad registrada</th>
+<th>Lectura prudente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lil Miquela</td>
+<td style="text-align: right;">2,249 millones</td>
+<td>-0,42%</td>
+<td>~0,2 publicaciones/semana; principios de octubre</td>
+<td>Legado sólido; baja frecuencia y contracción reciente</td>
+</tr>
+<tr>
+<td>Emily Pellegrini</td>
+<td style="text-align: right;">548 mil</td>
+<td>-0,7%</td>
+<td>Último registro aproximado: abril/2026</td>
+<td>Repercusión pasada; actividad actual no confirmada directamente</td>
+</tr>
+<tr>
+<td>Shudu</td>
+<td style="text-align: right;">236 mil</td>
+<td>-0,1%</td>
+<td>Esporádica; aproximadamente septiembre/2026</td>
+<td>Pequeña contracción, sin evidencia de colapso</td>
+</tr>
+<tr>
+<td>Naina</td>
+<td style="text-align: right;">346 mil</td>
+<td>-5,6%</td>
+<td>~4,2 publicaciones/semana; principios de octubre</td>
+<td>Publicar mucho no impidió la pérdida de seguidores</td>
+</tr>
+<tr>
+<td>Milla Sofia</td>
+<td style="text-align: right;">679 mil</td>
+<td>-0,5%</td>
+<td>~0,9 publicaciones/semana en Instagram</td>
+<td>Mes negativo, trimestre positivo en el estudio</td>
+</tr>
+<tr>
+<td>imma</td>
+<td style="text-align: right;">377,8 mil</td>
+<td>No confirmado</td>
+<td>Frecuencia reciente no confirmada</td>
+<td>Los proyectos comerciales y la audiencia requieren análisis separados</td>
+</tr>
+<tr>
+<td>Rozy</td>
+<td style="text-align: right;">160 mil</td>
+<td>-0,5%</td>
+<td>Último registro aproximado: abril/2026</td>
+<td>Señal de baja actividad indexada; causa no demostrada</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>No confundir:</strong> la pérdida de seguidores no mide la caída del alcance, los ingresos o las visualizaciones. «Última publicación» puede excluir stories, materiales eliminados y otras plataformas. Los porcentajes se conservaron tal como los proporcionaron los agregadores, sin recalcularlos como una serie homogénea.</p>
+<p>La comprobación de la página de Naina reprodujo las cifras del 08/10: 345.982 seguidores, -19.271 en 30 días y ~4,2 publicaciones/semana. Sin embargo, la página repite la variación de 90 días en la fila de 365 días y mezcla descripciones de plataformas; por eso <strong>no usamos su fila anual ni su biografía automática como prueba independiente</strong>. <a href="https://creatordb.app/creatorstats/naina_avtr/">CreatorDB — Naina</a>.</p>
+<p>Para Miquela también hay un análisis periodístico de 2025 sobre la pérdida de seguidores. No extrapolamos un promedio histórico a todos los meses de 2026. La afirmación sobre el cierre de la operación de Rozy no se confirmó de forma independiente y se excluyó de las conclusiones. <a href="https://digiday.com/media/in-graphic-detail-virtual-influencers-click-with-young-audiences-yet-brands-interest-wanes/">Digiday, 11/09/2025</a>.</p>
+<p>Fuentes de la instantánea: <a href="https://hypeauditor.com/instagram/lilmiquela/">Miquela / HypeAuditor</a>, <a href="https://creatordb.app/creatorstats/lilmiquela/">Miquela / CreatorDB</a>, <a href="https://creatordb.app/creatorstats/emilypellegrini/">Emily</a>, <a href="https://creatordb.app/creatorstats/shudu.gram">Shudu</a>, <a href="https://creatordb.app/creatorstats/naina_avtr/">Naina</a>, <a href="https://creatordb.app/creatorstats/millasofiafin/">Milla</a>, <a href="https://likeometer.co/%40imma.gram?lang=it">imma</a>, <a href="https://creatordb.app/creatorstats/rozy.gram">Rozy</a>.</p></div></section>
+<section id="referencias"><div class="wrap reading"><h2>Doce personajes para estudiar</h2><p>Los aprendizajes siguientes son interpretaciones editoriales. Un portafolio disponible confirma representación o presencia pública, pero no basta para clasificar el crecimiento actual. No reproducimos fotos de los personajes: consulta las fuentes y los perfiles enlazados.</p>
+<h3>1. Lil Miquela — narrativa y personalidad</h3>
+<p><strong>Referencia original · legado, con contracción en la instantánea.</strong> Personaje digital asociado a la moda, la música y la narrativa social. La Library of Congress registra su origen en gráficos por computadora. El aprendizaje consiste en construir personalidad y continuidad más allá del rostro. Evita tratar toda historia ficticia como una experiencia vivida por una persona.</p>
+<p><a href="https://www.instagram.com/lilmiquela/">Instagram</a> · <a href="https://www.loc.gov/item/lcwaN0028061/">Registro de la Library of Congress</a>.</p>
+<h3>2. Emily Pellegrini — glamour y efecto novedad</h3>
+<p><strong>Referencia original · caso de repercusión histórica.</strong> La cobertura de enero de 2024 presentó a la modelo creada con IA. Sirve para estudiar la estética aspiracional y la curiosidad, sin convertir afirmaciones sobre facturación en una promesa replicable. Su estado actual requiere una nueva verificación directa; la instantánea no demuestra actividad reciente.</p>
+<p><a href="https://www.instagram.com/emilypellegrini/">Perfil indicado en el original</a> · <a href="https://www.deejay.it/articoli/emily-pellegrini-influencer-ai-intelligenza-artificiale-chat-instagram/">Radio Deejay, 04/01/2024</a>.</p>
+<h3>3. Shudu — dirección de arte</h3>
+<p><strong>Referencia original · posicionamiento editorial persistente.</strong> The Diigitals presenta a Shudu como su modelo digital original. El aprendizaje se centra en la iluminación, la composición, la materialidad y la coherencia de moda. La calidad del portafolio no demuestra crecimiento de audiencia; la pequeña contracción de la instantánea no borra el valor del caso.</p>
+<p><a href="https://www.instagram.com/shudu.gram/">Instagram</a> · <a href="https://www.thediigitals.com/shudu">Portafolio oficial</a>.</p>
+<h3>4. Naina — cultura y continuidad</h3>
+<p><strong>Referencia original · activa, pero perdiendo seguidores en el período observado.</strong> El proyecto vinculado a Avtr Meta Labs explora personaje, moda y entretenimiento en el contexto indio. Sirve para pensar en la cultura y las historias recurrentes. El caso también cuestiona la fórmula simplista de que más publicaciones siempre traen más seguidores.</p>
+<p><a href="https://www.instagram.com/naina_avtr/">Instagram</a> · <a href="https://www.linkedin.com/posts/avtr-meta-labs_virtualsuperstar-ai-naina-activity-7115637653730959360-LlJv">Avtr Meta Labs</a> · <a href="https://creatordb.app/creatorstats/naina_avtr/">Métricas del agregador</a>.</p>
+<h3>5. Milla Sofia — expansión de formatos</h3>
+<p><strong>Referencia original · continuidad con señales mixtas.</strong> El sitio del proyecto presenta canciones y modelaje, con enlaces a plataformas de audio. El aprendizaje consiste en crear algo que seguir más allá de una secuencia de retratos. La diversificación está documentada; su efecto causal sobre el crecimiento y los ingresos no se ha medido aquí.</p>
+<p><a href="https://www.instagram.com/millasofiafin/">Instagram</a> · <a href="https://millasofia.eth.limo/index.html">Sitio y música</a>.</p>
+<h3>6. imma — sello visual y nuevas aplicaciones</h3>
+<p><strong>Referencia original · expansión de usos en 2026.</strong> El pelo rosa corto y el universo urbano componen su identidad reconocible. El anuncio de HITO añade la dimensión conversacional. El aprendizaje consiste en preservar los elementos centrales mientras se amplía el uso del personaje; un anuncio no confirma la escala de adopción.</p>
+<p><a href="https://www.instagram.com/imma.gram/">Instagram</a> · <a href="https://aww.tokyo/en/news/2026/07/1772/">Aww / HITO, julio de 2026</a>.</p>
+<h3>7. Rozy — expresión y operación</h3>
+<p><strong>Referencia original · baja actividad indexada en la instantánea.</strong> Presentada en un portafolio de comunicación como influencer y cantante virtual. Sirve para estudiar la expresión y las campañas. Mantener un personaje depende de una operación humana; no atribuimos su baja actividad a una causa empresarial sin confirmación.</p>
+<p><a href="https://www.instagram.com/rozy.gram/">Instagram</a> · <a href="https://demillpr.com/work/rozy/?lang=en">Portafolio de Demill</a>.</p>
+<h3>8. Lu do Magalu — personaje con una función</h3>
+<p><strong>Incorporación de la investigación · continuidad comercial documentada en 2026.</strong> Es la voz de una marca brasileña, vinculada a contenido, campañas y comercio. El aprendizaje consiste en darle una función clara al personaje. La identidad puede evolucionar visualmente sin desaparecer, como muestra la campaña de cambio de pelo.</p>
+<p><a href="https://www.instagram.com/magalu/">Instagram de Magalu</a> · <a href="https://exame.com/marketing/apos-ficar-loira-lu-do-magalu-dobra-vendas-de-coloracao-e-ja-supera-metade-da-receita-de-2025/">Campaña de 2026</a>.</p>
+<h3>9. Aitana López — nicho y operación de agencia</h3>
+<p><strong>Incorporación de la investigación · portafolio disponible, crecimiento no auditado.</strong> The Clueless presenta al personaje asociado al fitness, la moda y los videojuegos. El aprendizaje consiste en combinar un sello visual con intereses definidos. La lista de clientes de la agencia no debe atribuirse íntegramente al personaje; los ingresos difundidos en la prensa no equivalen a beneficios auditados.</p>
+<p><a href="https://www.instagram.com/fit_aitana/">Instagram</a> · <a href="https://www.theclueless.ai/project/aitana-lopez">Página oficial del personaje</a>.</p>
+<h3>10. Noonoouri — estilización y música</h3>
+<p><strong>Incorporación de la investigación · hito histórico de expansión.</strong> Warner Music publicó en septiembre de 2023 la noticia de la contratación del personaje digital y el lanzamiento de un sencillo. El aprendizaje es que una apariencia abiertamente estilizada puede sostener una identidad artística. La noticia de 2023 no demuestra tracción en 2026.</p>
+<p><a href="https://www.instagram.com/noonoouri/">Instagram</a> · <a href="https://www.wmg.com/news/the-independent-warner-music-sign-first-digital-character-noonoouri-and-release-debut-single">Warner Music, 02/09/2023</a>.</p>
+<h3>11. Nobody Sausage — humor sin realismo</h3>
+<p><strong>Incorporación de la investigación · referencia de animación, no prueba de IA generativa.</strong> El personaje del brasileño Kael Cabral aparece en el programa de Pictoplasma de 2025, con humor, narrativas visuales y colaboraciones. El aprendizaje es que la silueta, el ritmo y la identificación pueden importar más que un rostro realista. No usamos cifras antiguas como audiencia actual.</p>
+<p><a href="https://www.instagram.com/nobodysausage/">Instagram</a> · <a href="https://conference.pictoplasma.com/2025/nobody-sausage/">Pictoplasma 2025</a>.</p>
+<h3>12. Marisa Maiô — humor cultural y oportunidad</h3>
+<p><strong>Incorporación de la investigación · moda de 2025 con colaboración comprobada.</strong> La presentadora ficticia utiliza códigos de programas con público y humor brasileño. El aprendizaje consiste en combinar personaje, formato y contexto cultural. Copiar la apariencia del personaje no reproduce el momento oportuno ni el guion que sostuvieron su repercusión.</p>
+<p><a href="https://vejasp.abril.com.br/coluna/pop/marisa-maio-quem-e-como-foi-criada/">Contexto y creador — Veja SP</a> · <a href="https://ri.magazineluiza.com.br/Download.aspx?Arquivo=sW2j2qujldCsyoUBihZZ%2FQ%3D%3D">Campaña oficial de Magalu, junio/2025</a>.</p></div></section>
+<section id="consistencia"><div class="wrap reading"><h2>Cómo construir la consistencia de un personaje</h2><p>La consistencia tiene cuatro capas: <strong>visual, verbal, narrativa y estratégica</strong>. Repetir el rostro resuelve solo parte de la primera.</p>
+<ol>
+<li><strong>Identidad:</strong> nombre, personalidad, valores, límites y rasgos visuales que permiten reconocer al personaje.</li>
+<li><strong>Universo:</strong> ciudad o entorno ficticio, cultura, lenguaje, ropa y situaciones recurrentes. Evita una biografía que cambie con cada publicación.</li>
+<li><strong>Público y promesa:</strong> a quién se dirige y por qué esas personas volverían. Escribe una frase sencilla antes de producir imágenes.</li>
+<li><strong>Referencias de producción:</strong> reúne imágenes aprobadas de frente, de perfil y de cuerpo entero; registra la paleta, el vestuario y el tono de voz. Mantén lo que define la identidad, variando el contexto y el encuadre.</li>
+<li><strong>Narrativa:</strong> crea secciones recurrentes y pequeñas historias con situación, cambio y consecuencia. Planifica tres episodios conectados.</li>
+<li><strong>Revisión:</strong> compara rostro, proporciones, detalles, habla y continuidad con la referencia. La consistencia de imagen no garantiza la consistencia de voz o movimiento.</li>
+<li><strong>Prueba editorial:</strong> publica un pequeño conjunto y observa la retención, los comentarios pertinentes y el interés en el próximo episodio. Define un objetivo; un «me gusta» aislado no demuestra comunidad.</li>
+</ol>
+<p>Estas son recomendaciones de planificación y revisión, no una prueba comparativa de herramientas. La guía no atribuye a los personajes un software de producción que sus creadores no hayan confirmado.</p></div></section>
+<section id="exercicio"><div class="wrap reading"><h2>Ejercicio: la ficha de tu personaje</h2><p>Copia la ficha y responde con frases cortas. Hazlo antes de elegir el generador de imágenes.</p>
+<pre><code class="language-text">Nombre y descripción en una frase:
+A quién se dirige:
+Por qué alguien volvería mañana:
+Tres rasgos visuales fijos:
+Tres rasgos de personalidad:
+Tono de voz y expresiones recurrentes:
+Universo cultural y situaciones habituales:
+Lo que el personaje nunca hace:
+Sección recurrente 1:
+Sección recurrente 2:
+Historia en tres episodios:
+Cómo identifico al personaje como virtual:
+Qué voy a medir en la primera prueba:
+Hipótesis de colaboración o producto coherente:
+</code></pre>
+<p><strong>Ejemplo ficticio:</strong> Bia, una presentadora virtual que ayuda a adultos a entender la tecnología mediante situaciones cotidianas. Su sello es el humor paciente, un vestuario reconocible y demostraciones breves. Una sección recurrente sigue la misma tarea en tres etapas: duda, intento y resultado. La prueba mide si las personas entienden la explicación y piden el próximo episodio. No es un caso de éxito real ni una promesa de ingresos.</p>
+<p><strong>Para debatir en INEMA.VIDEOS y INEMA.AVATARES:</strong> después de estudiar los casos, ¿qué parte de tu personaje necesita cambiar: la apariencia, la historia, el público o el motivo para seguirlo? El material original menciona «VIP → Progress»; esa dinámica se conservó en el archivo original, pero no es un requisito para usar esta guía abierta.</p></div></section>
+<section id="metodo"><div class="wrap reading"><h2>Cómo actualizar el análisis sin caer en el hype</h2><ul>
+<li>Registrar la plataforma, la fecha de recogida de datos y la ventana de observación; nunca mezclar 30, 90 y 365 días como si fueran el mismo período.</li>
+<li>Comparar muestras de publicaciones recientes y campañas con fecha, sin depender solo del total de seguidores.</li>
+<li>Separar la información del creador, la comunicación de una marca, las noticias periodísticas y las estimaciones de agregadores.</li>
+<li>No convertir «no encontré evidencia» en «se acabó». No convertir «sigue en el sitio de la agencia» en «está arrasando».</li>
+<li>Marcar las hipótesis de saturación como hipótesis. Los ingresos estimados por patrocinios no son resultados contables.</li>
+</ul>
+<p><strong>Síntesis:</strong> personaje + identidad + narrativa + público + operación. Usa las referencias para entender decisiones, no para copiar rostros, historias o promesas de éxito.</p></div></section>
+<footer><div class="wrap"><p>influentes · Investigación revisada el 14/10/2026 · v1.0.1</p><p><a href="https://github.com/inematds/influentes">Textos y fuentes en GitHub (en portugués)</a> · <a href="https://inema.club">INEMA.CLUB</a></p></div></footer><script>
+  (function(){
+    var KEY='influentes-theme'; // sustituye influentes por el nombre del proyecto
+    var b=document.body, t=document.getElementById('themeToggle');
+    if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; }
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      localStorage.setItem(KEY, light?'light':'dark');
+    });
+  })();
+</script>
+</body>
+</html>
