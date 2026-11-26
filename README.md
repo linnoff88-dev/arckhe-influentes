@@ -1,4 +1,4 @@
-﻿# influentes â€” Influenciadores virtuais e IA
+ï»¿# influentes ê¢â¬â Influenciadores virtuais e IA
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,36 +6,36 @@
 </div>
 
 
-**[PortuguÃªs](README.md) Â· [English](README.en.md) Â· [EspaÃ±ol](README.es.md)**
+**[PortuguêÂªs](README.md) êÂ· [English](README.en.md) êÂ· [EspaêÂ±ol](README.es.md)**
 
 [![Crie um personagem](guia/assets/banner.jpg)](https://inematds.github.io/influentes/guia/)
 
-## O que Ã©
+## O que êÂ©
 
-O influentes Ã© um guia de pesquisa sobre influenciadores virtuais e personagens feitos com IA. Serve para quem cria conteÃºdo e quer desenvolver uma identidade que o pÃºblico reconheÃ§a e tenha motivo para acompanhar. ReÃºne doze referÃªncias, compara sinais de continuidade e perda de forÃ§a e oferece uma ficha prÃ¡tica de personagem. Ã‰ gratuito: basta ler, abrir as fontes e fazer o exercÃ­cio.
+O influentes êÂ© um guia de pesquisa sobre influenciadores virtuais e personagens feitos com IA. Serve para quem cria conteêÂºdo e quer desenvolver uma identidade que o pêÂºblico reconheêÂ§a e tenha motivo para acompanhar. ReêÂºne doze referêÂªncias, compara sinais de continuidade e perda de forêÂ§a e oferece uma ficha prêÂ¡tica de personagem. êâ° gratuito: basta ler, abrir as fontes e fazer o exercêÂ­cio.
 
 **[Abrir o guia](https://inematds.github.io/influentes/guia/)**
 
-## O que vocÃª encontra
+## O que vocêÂª encontra
 
-- Sete casos originais e cinco adicionais: Lu do Magalu, Aitana LÃ³pez, Noonoouri, Nobody Sausage e Marisa MaiÃ´.
-- O que envelheceu como estratÃ©gia, o que foi onda e o que mostra continuidade.
-- Retrato de atividade dos sete perfis, com datas, fontes e limitaÃ§Ãµes.
-- MÃ©todo de consistÃªncia e ficha para planejar seu personagem.
+- Sete casos originais e cinco adicionais: Lu do Magalu, Aitana LêÂ³pez, Noonoouri, Nobody Sausage e Marisa MaiêÂ´.
+- O que envelheceu como estratêÂ©gia, o que foi onda e o que mostra continuidade.
+- Retrato de atividade dos sete perfis, com datas, fontes e limitaêÂ§êÂµes.
+- MêÂ©todo de consistêÂªncia e ficha para planejar seu personagem.
 
-## ConteÃºdo e procedÃªncia
+## ConteêÂºdo e procedêÂªncia
 
 - [Guia completo em texto](docs/guia.md).
 - [Texto original fornecido](docs/texto-original.md).
-- [AnÃ¡lise adicional fornecida](docs/analise-fornecida-2025-2026.md).
+- [AnêÂ¡lise adicional fornecida](docs/analise-fornecida-2025-2026.md).
 
-RevisÃ£o: **14/10/2026**. MÃ©tricas de terceiros sÃ£o snapshots aproximados, nÃ£o auditoria direta nem painel ao vivo. Campanhas nÃ£o provam crescimento de seguidores. InterpretaÃ§Ãµes editoriais estÃ£o identificadas. As ilustraÃ§Ãµes do guia sÃ£o conceituais e nÃ£o representam os personagens pesquisados.
+RevisêÂ£o: **14/10/2026**. MêÂ©tricas de terceiros sêÂ£o snapshots aproximados, nêÂ£o auditoria direta nem painel ao vivo. Campanhas nêÂ£o provam crescimento de seguidores. InterpretaêÂ§êÂµes editoriais estêÂ£o identificadas. As ilustraêÂ§êÂµes do guia sêÂ£o conceituais e nêÂ£o representam os personagens pesquisados.
 
-## PublicaÃ§Ã£o
+## PublicaêÂ§êÂ£o
 
-PÃ¡gina estÃ¡tica em `guia/`, com versÃµes `en/` e `es/`. GitHub Pages publica pela aÃ§Ã£o `.github/workflows/pages.yml`. Sem instalaÃ§Ã£o para ler.
+PêÂ¡gina estêÂ¡tica em `guia/`, com versêÂµes `en/` e `es/`. GitHub Pages publica pela aêÂ§êÂ£o `.github/workflows/pages.yml`. Sem instalaêÂ§êÂ£o para ler.
 
-VersÃ£o **1.0.1** Â· [INEMA.CLUB](https://inema.club)
+VersêÂ£o **1.0.1** êÂ· [INEMA.CLUB](https://inema.club)
 
 ---
 

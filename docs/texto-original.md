@@ -2,7 +2,7 @@
 
 ## 1. Objetivo da aula
 
-Entender como os influenciadores de Inteligência Artificial são construídos, não apenas visualmente, mas também em termos de **conceito, identidade, público e estratégia**.
+Entender como os influenciadores de Inteligência Artificial sêo construídos, nêo apenas visualmente, mas também em termos de **conceito, identidade, público e estratégia**.
 
 A ideia é mudar a pergunta:
 
@@ -15,20 +15,20 @@ A ideia é mudar a pergunta:
 Analisando influenciadores virtuais de destaque, encontramos quatro características fundamentais:
 
 1. **Identidade reconhecível:** o personagem mantém aparência, personalidade e características próprias.
-2. **Universo visual consistente:** roupas, cenários, cores, estilo e comportamento seguem uma direção definida.
+2. **Universo visual consistente:** roupas, cenários, cores, estilo e comportamento seguem uma direçêo definida.
 3. **Conteúdos variados, mas coerentes:** diferentes formatos de Reels, histórias e publicações mantêm a mesma lógica de personagem.
-4. **Monetização estratégica:** o sucesso depende do conceito, da audiência e do posicionamento, não apenas do realismo das imagens.
+4. **Monetizaçêo estratégica:** o sucesso depende do conceito, da audiência e do posicionamento, nêo apenas do realismo das imagens.
 
 ### O ponto mais importante
 
-Esses influenciadores não são apenas visualmente consistentes.
+Esses influenciadores nêo sêo apenas visualmente consistentes.
 
-Eles são desenvolvidos para mercados específicos e adaptam seu conteúdo considerando:
+Eles sêo desenvolvidos para mercados específicos e adaptam seu conteúdo considerando:
 
 - Tendências e assuntos do momento.
 - Cultura e comportamento local.
 - Expectativas do público.
-- País, idioma e nicho de atuação.
+- País, idioma e nicho de atuaçêo.
 - Oportunidades comerciais.
 
 **A mudança fundamental é deixar de pensar apenas como criador e começar a pensar como estrategista.**
@@ -40,7 +40,7 @@ Antes de desenvolver um personagem, pergunte:
 - Por que alguém acompanharia sua história?
 - O que diferencia esse personagem dos demais?
 
-Alguns influenciadores são extremamente realistas. Outros têm aparência estilizada. Ambos podem funcionar quando existe identidade, consistência e estratégia.
+Alguns influenciadores sêo extremamente realistas. Outros têm aparência estilizada. Ambos podem funcionar quando existe identidade, consistência e estratégia.
 
 ---
 
@@ -66,17 +66,17 @@ Seu posicionamento demonstra como uma estética aspiracional pode impulsionar o 
 
 **O que aprender:** utilizar um universo visual direcionado a um público específico.
 
-**Atenção:** esse estilo pode não ser apropriado para todas as marcas e mercados.
+**Atençêo:** esse estilo pode nêo ser apropriado para todas as marcas e mercados.
 
-### 3. Shudu — Moda e direção artística
+### 3. Shudu — Moda e direçêo artística
 
 **Instagram:** https://www.instagram.com/shudu.gram
 
 Conhecida como uma das primeiras supermodelos digitais.
 
-Sua principal característica é a direção artística de alta moda, com fotografias que lembram campanhas editoriais de revistas.
+Sua principal característica é a direçêo artística de alta moda, com fotografias que lembram campanhas editoriais de revistas.
 
-**O que aprender:** criar imagens com padrão profissional, direção de arte e identidade visual consistente, evitando o aspecto de conteúdo genérico produzido por IA.
+**O que aprender:** criar imagens com padrêo profissional, direçêo de arte e identidade visual consistente, evitando o aspecto de conteúdo genérico produzido por IA.
 
 ### 4. Naina — Cultura e histórias em episódios
 
@@ -84,13 +84,13 @@ Sua principal característica é a direção artística de alta moda, com fotogr
 
 Influenciadora virtual indiana com identidade ligada à moda, cultura e comportamento contemporâneo do país.
 
-Seu diferencial está na criação de histórias contínuas por meio de Reels, funcionando quase como uma minissérie.
+Seu diferencial está na criaçêo de histórias contínuas por meio de Reels, funcionando quase como uma minissérie.
 
 **O que aprender:** transformar publicações isoladas em episódios de uma narrativa que faz o público acompanhar o personagem.
 
 Também demonstra a importância da autenticidade cultural e regional.
 
-### 5. Milla Sofia — Estética e expansão de marca
+### 5. Milla Sofia — Estética e expansêo de marca
 
 **Instagram:** https://www.instagram.com/millasofiafin
 
@@ -112,13 +112,13 @@ O projeto já realizou colaborações com marcas internacionais, incluindo IKEA,
 
 **O que aprender:** combinar características visuais marcantes, cultura local e personalidade para criar uma marca reconhecível.
 
-### 7. Rozy Gram — Expressão e posicionamento
+### 7. Rozy Gram — Expressêo e posicionamento
 
 **Instagram:** https://www.instagram.com/rozy.gram
 
-Influenciadora virtual sul-coreana conhecida pela expressividade emocional e pela construção de situações que reforçam sua personalidade.
+Influenciadora virtual sul-coreana conhecida pela expressividade emocional e pela construçêo de situações que reforçam sua personalidade.
 
-Seu uso vai além da publicidade tradicional, incluindo campanhas de conscientização.
+Seu uso vai além da publicidade tradicional, incluindo campanhas de conscientizaçêo.
 
 **O que aprender:** personagens virtuais podem transmitir emoções, representar causas e desenvolver conexões com diferentes públicos.
 
@@ -130,9 +130,9 @@ Seu uso vai além da publicidade tradicional, incluindo campanhas de conscientiz
 |---|---|---|
 | Lil Miquela | Personalidade | Narrativa e cultura pop |
 | Emily Pellegrini | Glamour | Luxo e estilo de vida |
-| Shudu | Qualidade visual | Moda e direção artística |
+| Shudu | Qualidade visual | Moda e direçêo artística |
 | Naina | Histórias contínuas | Cultura e episódios |
-| Milla Sofia | Expansão de marca | Lifestyle e música |
+| Milla Sofia | Expansêo de marca | Lifestyle e música |
 | Imma | Identidade marcante | Cultura urbana e marcas |
 | Rozy | Expressividade | Emoções e campanhas |
 
@@ -160,11 +160,11 @@ Quais características devem aparecer em todas as publicações para que o públ
 
 Que histórias esse personagem pode contar? Como transformar Reels isolados em conteúdos que criem continuidade?
 
-**6. Monetização**
+**6. Monetizaçêo**
 
 Como esse personagem pode gerar oportunidades comerciais, parcerias, produtos ou serviços?
 
-### Ação no Telegram VIP
+### Açêo no Telegram VIP
 
 Compartilhe em **VIP Telegram → Progress**:
 
@@ -172,16 +172,16 @@ O que você pretende mudar ou melhorar no conceito do seu personagem depois dest
 
 ---
 
-## 6. Conclusão
+## 6. Conclusêo
 
-**Um influenciador de IA não precisa parecer uma pessoa real para conquistar audiência. Ele precisa ter uma identidade clara, consistente e interessante para um público específico.**
+**Um influenciador de IA nêo precisa parecer uma pessoa real para conquistar audiência. Ele precisa ter uma identidade clara, consistente e interessante para um público específico.**
 
-O segredo não está apenas na qualidade das imagens.
+O segredo nêo está apenas na qualidade das imagens.
 
-Está na combinação de:
+Está na combinaçêo de:
 
 **Personagem + Identidade + Narrativa + Público + Estratégia.**
 
-Use essas sete referências para aprender, não para copiar.
+Use essas sete referências para aprender, nêo para copiar.
 
 O objetivo é desenvolver um personagem com identidade própria, capaz de construir audiência, gerar reconhecimento e criar oportunidades de negócio.
