@@ -8,13 +8,13 @@
 
 **[PortuguêÂªs](README.md) êÂ· [English](README.en.md) êÂ· [EspaêÂ±ol](README.es.md)**
 
-[![Crie um personagem](guia/assets/banner.jpg)](https://inematds.github.io/influentes/guia/)
+[![Crie um personagem](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 ## O que êÂ©
 
 O influentes êÂ© um guia de pesquisa sobre influenciadores virtuais e personagens feitos com IA. Serve para quem cria conteêÂºdo e quer desenvolver uma identidade que o pêÂºblico reconheêÂ§a e tenha motivo para acompanhar. ReêÂºne doze referêÂªncias, compara sinais de continuidade e perda de forêÂ§a e oferece uma ficha prêÂ¡tica de personagem. êâ° gratuito: basta ler, abrir as fontes e fazer o exercêÂ­cio.
 
-**[Abrir o guia](https://inematds.github.io/influentes/guia/)**
+**[Abrir o guia](https://linnoff88-dev.github.io/arckhe-/guia/)**
 
 ## O que vocêÂª encontra
 
@@ -35,7 +35,7 @@ RevisêÂ£o: **14/10/2026**. MêÂ©tricas de terceiros sêÂ£o snapshot
 
 PêÂ¡gina estêÂ¡tica em `guia/`, com versêÂµes `en/` e `es/`. GitHub Pages publica pela aêÂ§êÂ£o `.github/workflows/pages.yml`. Sem instalaêÂ§êÂ£o para ler.
 
-VersêÂ£o **1.0.1** êÂ· [INEMA.CLUB](https://inema.club)
+VersêÂ£o **1.0.1** êÂ· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 

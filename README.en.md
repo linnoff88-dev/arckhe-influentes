@@ -2,13 +2,13 @@
 
 **[Português](README.md) · [English](README.en.md) · [Español](README.es.md)**
 
-[![Create a character](guia/assets/banner-en.jpg)](https://inematds.github.io/influentes/guia/en/)
+[![Create a character](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 ## What it is
 
 influentes is a research guide to virtual influencers and AI-generated characters. It is for content creators who want to develop an identity that audiences recognize and have a reason to follow. It brings together twelve references, compares signs of continuity and declining momentum, and offers a practical character worksheet. It is free: just read, open the sources, and try the exercise.
 
-**[Open the guide](https://inematds.github.io/influentes/guia/en/)**
+**[Open the guide](https://linnoff88-dev.github.io/arckhe-/guia/en/)**
 
 ## What you will find
 
@@ -29,4 +29,4 @@ Reviewed on **14/10/2026**. Third-party metrics are approximate snapshots, not a
 
 Static page in `guia/`, with `en/` and `es/` versions. GitHub Pages publishes through the `.github/workflows/pages.yml` action. No installation is needed to read it.
 
-Version **1.0.1** · [INEMA.CLUB](https://inema.club)
+Version **1.0.1** · [ARCKHÉ AI](https://ARCKHÉ AI)
